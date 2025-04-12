@@ -1,0 +1,142 @@
+/* Global styles */
+body {
+    background: linear-gradient(to bottom right, #b2e0b2, #4CAF50);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 10px 0;
+}
+
+#logo {
+    width: 150px;
+    margin-bottom: 0px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #81D4FA, #29B6F6); /* Light blue gradient background */
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.6); /* Slight black background with opacity */
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff; /* White text color for headings */
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #ffffff; /* White text color for labels */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #81D4FA; /* Light blue border */
+  background-color: #fff;
+  color: #333; /* Dark text inside the input field */
+}
+
+button {
+  background-color: #0288D1; /* Blue background for button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #03A9F4; /* Lighter blue on hover */
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+#questionList {
+  margin-top: 20px;
+}
+
+.question {
+  background-color: #0288D1; /* Blue background for questions */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+#studentDetails p {
+  margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+  .footer-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
